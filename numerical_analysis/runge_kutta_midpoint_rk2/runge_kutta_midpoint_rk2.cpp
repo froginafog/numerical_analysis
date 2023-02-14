@@ -1,7 +1,4 @@
-/*
-runge kutta midpoint rk2 for solving initial value problem
-author: froginafog
-*/
+//runge kutta midpoint rk2 for solving initial value problem
 
 #include <iostream>
 #include <iomanip>
