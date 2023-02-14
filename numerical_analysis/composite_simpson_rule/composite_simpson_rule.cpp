@@ -1,7 +1,5 @@
-/*
-composite simpson rule for evaluating an integral
-author: froginafog
-*/
+//composite simpson rule for evaluating an integral
+
 
 #include <iostream>
 #include <cmath>
