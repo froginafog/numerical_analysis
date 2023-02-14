@@ -1,7 +1,5 @@
-/*
- * Bisection Method
- * author: froginafog
- */
+//Bisection Method
+ 
 #include <iostream>
 #include <cmath>
 #include <iomanip>
