@@ -1,7 +1,5 @@
-/*
- * Fixed Point Iteration for finding x such that f(x) = 0.
- * author: froginafog
- */
+//Fixed Point Iteration for finding x such that f(x) = 0.
+
 #include <iostream>
 #include <iomanip>
 #include <cmath>
