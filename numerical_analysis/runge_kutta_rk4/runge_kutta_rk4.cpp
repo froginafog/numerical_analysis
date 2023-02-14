@@ -1,7 +1,4 @@
-/*
-runge kutta rk4 method for solving initial value problem
-author: froginafog
-*/
+//runge kutta rk4 method for solving initial value problem
 
 #include <iostream>
 #include <iomanip>
