@@ -1,7 +1,4 @@
-/*
-runge kutta trapezoid rk2
-author: froginafog
-*/
+//runge kutta trapezoid rk2
 
 #include <iostream>
 #include <iomanip>
