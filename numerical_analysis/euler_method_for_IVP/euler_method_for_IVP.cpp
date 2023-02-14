@@ -5,8 +5,6 @@ t_0 <= t <= t_f
 t_(i+1) = t_i + h
 y is the solution
 w is the approximate solution
-
-author: froginafog
  */
 #include <iostream>
 #include <iomanip>
