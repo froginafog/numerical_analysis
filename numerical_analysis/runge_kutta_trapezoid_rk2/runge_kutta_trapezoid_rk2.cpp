@@ -31,9 +31,9 @@ void rungeKuttaTrapezoid(double t0, double tf, double w0,double h)
 
 	cout << setw(3) << "i"
 	     << setw(6) << "t"
-		 << setw(14) << "k1"
-		 << setw(14) << "k2"
-		 << setw(14) << "w" << endl;
+	     << setw(14) << "k1"
+	     << setw(14) << "k2"
+	     << setw(14) << "w" << endl;
 	t = t0;
 	w = w0;
 	k1 = 0;
@@ -42,9 +42,9 @@ void rungeKuttaTrapezoid(double t0, double tf, double w0,double h)
 	{
 		cout << setw(3) << i
 		     << setw(6) << t
-			 << setw(14) << k1
-			 << setw(14) << k2
-			 << setw(14) << w << endl;
+		     << setw(14) << k1
+		     << setw(14) << k2
+		     << setw(14) << w << endl;
 		k1 = f(t,w);
 		k2 = f(t + h,w + k1 * h);
 		w = w + h*(k1 + k2)/2;
