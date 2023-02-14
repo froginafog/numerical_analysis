@@ -1,8 +1,3 @@
-/*
-romberg integration
-author: froginafog
-*/
-
 #include <iostream>
 #include <iomanip>
 #include <cmath>
@@ -60,9 +55,9 @@ double romberg_integration(double (*f)(double), double a, double b)
 	cout << setw(6) << " ";
 	cout << setw(13) << "j = 1"
 	     << setw(13) << "j = 2"
-		 << setw(13) << "j = 3"
-		 << setw(13) << "j = 4"
-		 << setw(13) << "j = 5" << endl;
+	     << setw(13) << "j = 3"
+	     << setw(13) << "j = 4"
+	     << setw(13) << "j = 5" << endl;
 	for(i = 1; i <= iMax; i++)
 	{
 		cout << "i = " << i << ": ";
