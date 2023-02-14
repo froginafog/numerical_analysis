@@ -1,7 +1,4 @@
-/*
- * Neton Method for finding x such that f(x) = 0.
- * autho: froginafog
- */
+//Neton Method for finding x such that f(x) = 0.
 
 #include <iostream>
 #include <iomanip>
